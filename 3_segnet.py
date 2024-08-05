@@ -1,3 +1,11 @@
+'''
+Limitations:
+
+1. Slow Inference
+
+2. Complex Architecture
+'''
+
 def segnet(input_shape=(256, 256, 3), num_classes=21):
     inputs = Input(input_shape)
 
