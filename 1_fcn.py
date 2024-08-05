@@ -1,4 +1,10 @@
+'''
+Limitations: 
 
+1. Loss of Spatial Resolution 
+
+2. Bluriness in Output 
+'''
 def fcn(input_shape=(256, 256, 3), num_classes=21):
     inputs = Input(input_shape)
 
