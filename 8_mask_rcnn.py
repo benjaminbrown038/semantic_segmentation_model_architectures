@@ -1,3 +1,10 @@
+'''
+Limitations:
+1. Heavy Computational Load
+
+2. High Memory Usage
+'''
+
 def build_backbone(input_shape=(256, 256, 3)):
     base_model = ResNet50(include_top=False, weights='imagenet', input_shape=input_shape)
     return base_model
