@@ -1,3 +1,10 @@
+'''
+Limitations:
+1. Complex Architecture
+
+2. Performance
+'''
+
 def spatial_path(x):
     x = Conv2D(64, (3, 3), padding='same', activation='relu')(x)
     x = BatchNormalization()(x)
