@@ -1,4 +1,10 @@
+'''
+Limitations:
 
+1. Computationally Expensive
+
+2. High Memory Usage
+'''
 def atrous_conv(x, filters, kernel_size, dilation_rate):
     x = Conv2D(filters, kernel_size, padding='same', dilation_rate=dilation_rate)(x)
     x = BatchNormalization()(x)
