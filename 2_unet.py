@@ -1,3 +1,11 @@
+'''
+Limitations:
+
+1. Memory Intensive
+
+2. Overfitting
+'''
+
 def unet(input_shape=(256, 256, 3)):
     inputs = Input(input_shape)
 
