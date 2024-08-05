@@ -1,3 +1,11 @@
+'''
+Limitations:
+
+1. Large Model Size
+
+2. Slow Training
+'''
+
 def pyramid_pooling_module(x, bin_sizes):
     # Feature maps list to collect the output of each pyramid level
     features = []
