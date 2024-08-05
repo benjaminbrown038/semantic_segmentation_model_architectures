@@ -1,3 +1,10 @@
+'''
+Limitations:
+1. High Computational Cost
+
+2. Memory Requirements
+''' 
+
 def knowledge_representation_module(x):
     # Apply convolution layers to extract contextual information
     x = Conv2D(64, (3, 3), padding='same')(x)
